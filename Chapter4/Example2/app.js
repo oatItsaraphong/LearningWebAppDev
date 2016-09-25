@@ -1,3 +1,4 @@
+
 var main = function () {
     "use strict";
 
@@ -11,8 +12,18 @@ var main = function () {
             $new_comment.fadeIn();
             $(".comment-input input").val("");
         }
+        
+        var $new_comment2;
+        if ($(".comment-input2 input").val() !== "") {
+            $new_comment2 = $("<p>").text($(".comment-input2 input").val());
+            $new_comment2.hide();
+            $(".comments").append($new_comment2);
+            $new_comment2.fadeIn();
+            $(".comment-input2 input").val("");
+        }
     };
 
+    
     $(".comment-input button").on("click", function (event) {
         addCommentFromInputBox();
     });

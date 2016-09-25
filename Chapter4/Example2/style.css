@@ -34,16 +34,18 @@ main {
   border-bottom: 1px solid darkslategray;
 }
 
-
+.comment-input2,
 .comment-input {
   float: left;
   width: 285px;
 }
 
+.comment-input2 p,
 .comment-input p {
   margin-bottom: 10px;
 }
 
+.comment-input2 input,
 .comment-input input {
   width: 80%;
   height: 30px;
@@ -51,6 +53,7 @@ main {
   font-weight: bold;
 }
 
+.comment-input2 button,
 .comment-input button {
   font-weight: bold;
   padding: 3px;
