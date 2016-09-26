@@ -34,9 +34,14 @@ main {
   border-bottom: 1px solid darkslategray;
 }
 
-.comment-input2,
+
 .comment-input {
   float: left;
+  width: 285px;
+}
+
+.comment-input2{
+  float: right;
   width: 285px;
 }
 
@@ -51,6 +56,7 @@ main {
   height: 30px;
   font-size: 1.2em;
   font-weight: bold;
+  margin-bottom:10px;
 }
 
 .comment-input2 button,
@@ -76,12 +82,12 @@ main {
   border-radius: 5px;
 }
 
-.comments p:nth-child(even) {
-    background: lavender;
+.OneColor {
+  background: lightcoral;
 }
 
-.comments p:nth-child(odd) {
-    background: gainsboro;
+.TwoColor {
+  background: lightblue; 
 }
 
 footer {
