@@ -18,7 +18,7 @@ var main = function () {
   };
 
   //Click Handler Second User
-  $('.comment-input2 button').on('click', function (event) {
+  $('.comment-input2 button').on('click', function () {
     addCommentFromInputBox2();
   });
 
@@ -44,7 +44,7 @@ var main = function () {
   };
     
   //click handler
-  $('.comment-input button').on('click', function (event) {
+  $('.comment-input button').on('click', function () {
     addCommentFromInputBox();
   });
 
