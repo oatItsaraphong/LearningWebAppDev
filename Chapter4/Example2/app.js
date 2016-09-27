@@ -6,13 +6,13 @@ var main = function () {
   //Second User
   var addCommentFromInputBox2 = function () {
 
-    var $new_Comment2;
+    var $newComment2;
     if ($('.comment-input2 input').val() !== '') {
-      $new_Comment2 = $('.comment-input2 input').val();
-      $new_Comment2 = $('<p class="TwoColor">').text($new_Comment2);
-      $new_Comment2.hide();
-      $('.comments').append($new_Comment2);
-      $new_Comment2.fadeIn();
+      $newComment2 = $('.comment-input2 input').val();
+      $newComment2 = $('<p class="TwoColor">').text($newComment2);
+      $newComment2.hide();
+      $('.comments').append($newComment2);
+      $newComment2.fadeIn();
       $('.comment-input2 input').val('');
     }
   };
@@ -32,13 +32,13 @@ var main = function () {
   //First User
   var addCommentFromInputBox = function () {
     
-    var $new_Comment;
+    var $newComment;
     if ($('.comment-input input').val() !== '') {
-      $new_Comment = $('.comment-input input').val();
-      $new_Comment = $('<p class="OneColor">').text($new_Comment);
-      $new_Comment.hide();
-      $('.comments').append($new_Comment);
-      $new_Comment.fadeIn();
+      $newComment = $('.comment-input input').val();
+      $newComment = $('<p class="OneColor">').text($newComment);
+      $newComment.hide();
+      $('.comments').append($newComment);
+      $newComment.fadeIn();
       $('.comment-input input').val('');
     }
   };

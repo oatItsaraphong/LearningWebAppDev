@@ -82,12 +82,19 @@ main {
   border-radius: 5px;
 }
 
-.OneColor {
+.OneColor:nth-child(odd){
   background: lightcoral;
 }
+.OneColor:nth-child(even){
+  background: coral;
+}
 
-.TwoColor {
+.TwoColor:nth-child(odd){
   background: lightblue; 
+}
+
+.TwoColor:nth-child(even){
+  background: blue;
 }
 
 footer {
