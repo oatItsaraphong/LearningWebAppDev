@@ -34,7 +34,6 @@ main {
   border-bottom: 1px solid darkslategray;
 }
 
-
 .comment-input {
   float: left;
   width: 285px;
@@ -85,6 +84,7 @@ main {
 .OneColor:nth-child(odd){
   background: lightcoral;
 }
+
 .OneColor:nth-child(even){
   background: coral;
 }
