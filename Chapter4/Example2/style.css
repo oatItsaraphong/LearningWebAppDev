@@ -94,7 +94,7 @@ main {
 }
 
 .TwoColor:nth-child(even){
-  background: lightskyblue;
+  background: lavender;
 }
 
 footer {
