@@ -11,6 +11,7 @@ var main = function () {
       $newComment2 = $('.comment-input2 input').val();
       $newComment2 = $('<p class="TwoColor">').text($newComment2);
       $newComment2.hide();
+      //add to the html
       $('.comments').append($newComment2);
       $newComment2.fadeIn();
       $('.comment-input2 input').val('');

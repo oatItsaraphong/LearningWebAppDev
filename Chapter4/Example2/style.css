@@ -81,18 +81,22 @@ main {
   border-radius: 5px;
 }
 
-.OneColor:nth-child(odd){
+.OneColor:nth-child(even){
   background: lightcoral;
 }
 
-.OneColor:nth-child(even){
+.OneColor:nth-child(odd){
   background: coral;
 }
 
-.TwoColor:nth-child(odd){
-  background: lightblue; 
+.TwoColor{
+  color:green;
+  text-align:right;
 }
 
+.TwoColor:nth-child(odd){
+  background: lightblue;
+}
 .TwoColor:nth-child(even){
   background: lavender;
 }
