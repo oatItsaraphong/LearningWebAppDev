@@ -14,11 +14,14 @@ header .container, main .container, footer .container {
 header {
   background: white;
   overflow: auto;
+  padding: 1em
 }
 
-header h1 {
+h1 {
   float: left;
+  font-size : 4em;
   width: 570px;
+  color: saddlebrown;
 }
 
 header nav {
@@ -39,6 +42,15 @@ main .left {
 main .right {
   float: right;
   width: 285px;
+  height: 120%;
+}
+
+h2{
+  font-size: 2em;
+}
+
+main li{
+  padding: 0.5em;
 }
 
 footer .left {
@@ -49,4 +61,10 @@ footer .left {
 footer .sitemap {
   float: right;
   width: 285px;
+}
+
+h5{
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  font-weight:bold;
 }
